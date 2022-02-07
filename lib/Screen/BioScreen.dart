@@ -1,5 +1,4 @@
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:vp12_bio_app/widdget/BioCard.dart';
 
@@ -36,7 +35,7 @@ class BioScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Spacer(),
-               const CircleAvatar(
+                     const CircleAvatar(
                   radius: 40,
                   backgroundImage: AssetImage('images/avatarimage.png')),
               const SizedBox(height: 10),
